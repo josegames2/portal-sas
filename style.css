@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+nav{
+    background-color: white;
+    position: relative;
+    display: flex;
+    height: 70px;   
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.479);
+}
+#img-1{
+    position: absolute;
+    height: 45px;
+    top: 12px;
+    left: 12px;
+}
+ul{
+    display: flex;
+}
+#ul-header{
+    list-style: none;
+}
+#tittle-1{
+    margin-left: 100px;
+}
+.info-header{
+    color: #003064;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+.info-header:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+#aluno-header{
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 230px;
+    right: 45px;
+}
+#descricao-aluno{
+    padding-left: 8px;
+    
+}
+#foto-aluno{
+    margin-top: 3px;
+    background-size: contain;
+    border: 3px solid#0467db;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 63px;
+}
+#p-aluno{
+    color: #0467db;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.simbolo{
+    margin-left: 4px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+#logo-tras{
+    background: url('src/img/backgraund-sas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+#buttom-editar{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#barra-logo{
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    box-shadow: -1px -19px 20px rgba(0, 0, 0, 0.19);
+}
+#barra-logo2{
+    margin-top: -24px;
+    height: 20px;
+    z-index: -1;
+}
+#area-info{
+    position: relative;
+    display: flex;
+    margin: auto;
+    max-width: 1100px;
+    margin-bottom: 50px;
+}
+#foto-aluno-info{
+    position: relative;
+    margin-top: -40px;
+    left: 10px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.356);
+    border-radius: 50%;
+    height: 100px;
+}
+#inicio-aluno-info{
+    position: relative;
+    height: 10px;
+    top: 10px;
+    left: 20px;
+}
+#nome-aluno-info{
+    position: relative;
+    top: -1px;
+    left: 69px;
+}
+#info-colegio{
+    display: flex;
+    color: #666e75;
+    line-height: 26px;
+}
+#aluno-info{
+    margin-left: 20px;
+}
+#bolinha{
+    margin: auto;
+    background-color: #666e75;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+#avaliar{
+    position: absolute;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 9px;
+    font-size: 16px;
+    background-color: white;
+    border: white;
+    width: 60px;
+    height: 30px;
+
+    top: 10px;
+    right: 120px;
+}
+#avaliar:hover{
+    background-color: #c9cccf;
+    border-radius: 7px;
+}
+#tutorial{
+    position: absolute;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 9px;
+    font-size: 16px;
+    background-color: white;
+    border: white;
+    width: 70px;
+    height: 30px;
+
+    top: 10px;
+    right: 50px;
+}
+#tutorial:hover{
+    background-color: #c9cccf;
+    border-radius: 7px;
+}
+
+.area-info2{
+    position: relative;
+    display: flex;
+    margin: auto;
+    max-width: 1100px;
+}
+#bloco-info{
+   display: flex;
+}
+.bloco-info-c{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+.bloco-info-c:hover{
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.575);
+}
+#bloco-info1{
+    background: url('src/img/bloco-info1.png');
+    background-size: cover;
+}
+#bloco-info2{
+    background: url('src/img/bloco-info2.png');
+    background-size: contain;
+}   
+#bloco-info3{
+    background: url('src/img/bloco-info3.png');
+    background-size: cover;
+}
+#projet-img{
+    margin-left: 50px;
+}
+#projet-img > a > img{
+    border-radius: 10px;
+}
+#final{
+    position: relative;
+    height: 100px;
+}
+#foto-final-footer{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+#p-footer{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 30px;
+    left: 85px;
+}
+#p-final-footer{
+    position: absolute;
+    color: #666e75;
+    line-height: 20px;
+    top: 55px;
+    left: 85px;
+}
+#p-final-footer > a{
+    color: #666e75;
+    text-decoration: underline;
+}
+#p-redes{
+    position: absolute;
+    font-weight: bolder;
+    font-size: large;
+    top: 40px;
+    right: 350px;
+}
+#facebook{
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    padding: 10px;
+    color: #666e75;
+}
+#facebook:hover{
+    background-color: #c9cccf;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+}
+#instagram{
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    padding: 10px;
+    color: #666e75;
+}
+#isntagram:hover{
+    background-color: #c9cccf;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+}
+#twitter{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    padding: 10px;
+    color: #666e75;
+}
+#twitter:hover{
+    background-color: #c9cccf;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+}
+#youtuber{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    padding: 10px;
+    color: #666e75;
+}
+#youtuber:hover{
+    background-color: #c9cccf;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+}
+
